@@ -12,22 +12,22 @@ with col1:
     pH = st.text_input('pH Alus Susu')
 
 with col1:
-    Temprature = st.text_input('Suhu Susu') 
+    Temprature = st.number_input('Suhu Susu') 
 
 with col1:
-    Taste = st.text_input('Rasa Susu')
+    Taste = st.number_input('Rasa Susu')
 
 with col1:
-    Odor = st.text_input('Bau Susu')
+    Odor = st.number_input('Bau Susu')
 
 with col2:
-    Fat = st.text_input('Tingkat Lemak Susu')
+    Fat = st.number_input('Tingkat Lemak Susu')
 
 with col2:
-    Turbidity = st.text_input('Kekeruhan susu')
+    Turbidity = st.number_input('Kekeruhan susu')
 
 with col2:
-    Colour = st.text_input('Warna Susu')
+    Colour = st.number_input('Warna Susu')
 
 milknew_diagnosis = ''
 
